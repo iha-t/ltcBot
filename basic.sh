@@ -23,7 +23,7 @@ echo "YOU WILL BE TOLD ONCE WHEN DONE"
 echo ""
 pkg update -y
 pkg upgrade -y
-pkg install python3 -y
+sudo apt-get install python -y
 pip3 install bs4
 pip3 install rsa
 pip3 install pyaes
